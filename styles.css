@@ -706,12 +706,18 @@ h1 {
 }
 
 .creek .property-art::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/CreekBay.jpeg")center 30%/cover no-repeat;
 }
 
 .fashionz .property-art::before {
   /* background: linear-gradient(135deg, #5f6764 0%, #aa3f2e 48%, #c4a35d 100%); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/Fashionz.jpeg")center 30%/cover no-repeat;
 }
@@ -727,19 +733,27 @@ h1 {
 
 .sky .property-art::before {
   /* background: linear-gradient(145deg, #47624f 0%, #dbe3d7 50%, #0d4f45 100%); */
-  
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/Sky.jpeg") center 30%/cover no-repeat;
 }
 
 .breez .property-art::before {
   /* background: radial-gradient(circle at 50% 45%, rgba(255, 255, 255, 0.28), transparent 16%), linear-gradient(135deg, #007f8a, #03404a); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/Breez.jpeg") center 30%/cover no-repeat;
 }
 
 .serenz .property-art::before {
   /* background: linear-gradient(145deg, #061336 0%, #172b66 48%, #c4a35d 100%); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/Serenz.jpeg") center 30%/cover no-repeat;
 
@@ -754,24 +768,32 @@ h1 {
   content: "";
   position: absolute;
   inset: 0;
-
   background: url("assets/titania.jpeg") center/cover no-repeat;
 }
 
 .marina .property-art::before {
   /* background: linear-gradient(145deg, #0f2546 0%, #1b8f90 52%, #f0ce80 100%); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/mg\ height.jpeg") center/cover no-repeat;
 }
 
 .downtown .property-art::before {
   /* background: linear-gradient(145deg, #151515 0%, #6d6a60 48%, #c4a35d 100%); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/downton.jpeg") center/cover no-repeat;
 }
 
 .palm .property-art::before {
   /* background: linear-gradient(145deg, #03404a 0%, #d9dfd8 50%, #aa3f2e 100%); */
+  content: "";
+  position: absolute;
+  inset: 0;
   background:
     url("assets/Palm.jpeg") center/cover no-repeat;
 }
