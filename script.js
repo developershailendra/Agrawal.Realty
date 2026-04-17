@@ -45,3 +45,20 @@ window.addEventListener(
   },
   { passive: true }
 );
+
+let lastScroll = 0;
+const floating = document.querySelector('.floating-actions');
+
+window.addEventListener('scroll', () => {
+  let currentScroll = window.pageYOffset;
+
+  if (currentScroll < lastScroll && currentScroll > 100) {
+    // scrolling UP → show
+    floating.classList.add('show');
+  } else {
+    // scrolling DOWN or top → hide
+    floating.classList.remove('show');
+  }
+
+  lastScroll = currentScroll;
+});
