@@ -62,3 +62,34 @@ window.addEventListener('scroll', () => {
 
   lastScroll = currentScroll;
 });
+
+const menuToggle = document.querySelector(".menu-toggle");
+const siteNav = document.querySelector(".site-nav");
+
+const closeMenu = () => {
+  header?.classList.remove("nav-open");
+  menuToggle?.setAttribute("aria-expanded", "false");
+};
+
+const keepHeaderSolid = () => {
+  header?.style.setProperty("background", "#060806");
+};
+
+menuToggle?.addEventListener("click", () => {
+  const isOpen = header?.classList.toggle("nav-open");
+  menuToggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
+  keepHeaderSolid();
+});
+
+siteNav?.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", closeMenu);
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 980) {
+    closeMenu();
+  }
+});
+
+window.addEventListener("scroll", keepHeaderSolid, { passive: true });
+keepHeaderSolid();

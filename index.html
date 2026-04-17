@@ -19,11 +19,16 @@
     </div>
 
     <header class="site-header">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <a class="brand" href="#home" aria-label="Agrawal Realty home">
         <img src="assets/agrawallogo.jpg" alt="" />
-        <span>Agrawal Realty</span>
+        
       </a>
-      <nav class="site-nav" aria-label="Primary navigation">
+      <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="index.html#about">About</a>
         <a href="index.html#contact">Contact</a>
@@ -35,32 +40,53 @@
     </header>
 
     <main id="home">
-      <section class="hero section-dark">
+      <section class="hero">
         <div class="hero-visual" aria-hidden="true">
-          <div class="tower tower-one"></div>
-          <div class="tower tower-two"></div>
-          <div class="tower tower-three"></div>
-          <div class="waterline"></div>
+          <div class="hero-glow hero-glow-one"></div>
+          <div class="hero-glow hero-glow-two"></div>
+          <div class="hero-grid-lines"></div>
         </div>
         <div class="hero-content">
-          <p class="eyebrow">Jhansi rooted. Dubai focused. India & UAE ready.</p>
-          <h1>Agrawal Realty</h1>
+          <p class="eyebrow">Jhansi's Leading Real Estate & Retail Solutions Partner With</p>
+          <h1>Real estate guidance for Jhansi, India and the UAE.</h1>
           <p class="hero-copy">
-            Commercial and residential real estate advisory for Dubai investments, Jhansi retail expansion,
-            leasing, property management, land deals and mall advisory.
+            Complete property solutions for buyers, investors and brands, from Jhansi opportunities to curated Dubai
+            investments.
           </p>
           <div class="hero-actions">
-            <a class="button button-gold" href="https://wa.me/919793906869" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.83 9.83 0 0 0-8.5 14.78L2.3 22l5.36-1.2A9.84 9.84 0 1 0 12.04 2Zm5.74 14.05c-.24.68-1.38 1.26-1.93 1.34-.5.08-1.13.12-1.82-.12-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.37-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.83 2.01.9 2.15.08.15.12.32.03.51-.1.19-.15.31-.29.48-.14.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.35 1.45.29.14.46.12.63-.07.19-.22.73-.85.93-1.14.19-.29.39-.24.66-.15.27.1 1.73.82 2.02.97.29.14.49.21.56.33.07.12.07.7-.17 1.37Z"/></svg>
-              WhatsApp
-            </a>
-            <a class="button button-ghost" href="dubai-gallery.html">View Projects</a>
+            <a class="button button-gold" href="https://wa.me/919793906869?text=Hello%20Agrawal%20Realty%2C%20I%20want%20to%20book%20a%20consultation." target="_blank" rel="noopener">Book Consultation</a>
+            <a class="button button-light" href="dubai-gallery.html#gallery">Invest in UAE</a>
+          </div>
+          <div class="hero-stat-row" aria-label="Core strengths">
+            <article>
+              <span>Local Reach</span>
+              <strong>Jhansi</strong>
+              <p>Commercial, retail and land advisory.</p>
+            </article>
+            <article>
+              <span>Global Reach</span>
+              <strong>Dubai</strong>
+              <p>Investment opportunities with clear guidance.</p>
+            </article>
           </div>
         </div>
-        <aside class="hero-panel" aria-label="Key markets">
-          <span>Dubai investment desk</span>
-          <strong>AED 679k+</strong>
-          <p>Curated branded residences, waterfront communities and high-yield apartment opportunities.</p>
+        <aside class="hero-profile" aria-label="Founder profile">
+          <div class="hero-profile-media">
+            <img src="assets/dummy.jpeg" alt="Dummy Agrawal, Founder and Property Consultant" />
+          </div>
+          <div class="hero-profile-body">
+            <p class="hero-profile-label">Founder Profile</p>
+            <h2>Dummy Agrawal</h2>
+            <p class="hero-profile-role">Founder & Property Consultant</p>
+            <p>
+              Helping buyers, businesses and investors identify strong properties, retail spaces and long-term
+              opportunities.
+            </p>
+            <div class="hero-profile-note">
+              <span>Focus</span>
+              <p>Leasing, land deals, property management and UAE investment support.</p>
+            </div>
+          </div>
         </aside>
       </section>
 
@@ -79,8 +105,45 @@
         </article>
       </section>
 
+      <section class="section vision-section">
+        <div class="vision-intro">
+          <div class="section-heading">
+            <p class="eyebrow">Vision & Jhansi Growth Story</p>
+            <h2>Built for the next phase of Jhansi growth.</h2>
+            <p>
+              We focus on the right assets, the right timing and the right locations for long-term value.
+            </p>
+          </div>
+        </div>
+
+        <div class="vision-grid">
+          <article class="vision-card">
+            <span>01</span>
+            <h3>Jhansi is entering a stronger growth cycle.</h3>
+            <p>
+              Better connectivity and rising organized development are improving long-term property potential.
+            </p>
+          </article>
+          <article class="vision-card">
+            <span>02</span>
+            <h3>BIDA can accelerate land and commercial demand.</h3>
+            <p>
+              New industrial and infrastructure momentum can lift values for nearby land, retail and mixed-use assets.
+            </p>
+          </article>
+          <article class="vision-card">
+            <span>03</span>
+            <h3>UP's scale can amplify future investment upside.</h3>
+            <p>
+              As Uttar Pradesh expands through infrastructure and business growth, emerging cities like Jhansi can gain
+              stronger investor attention.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section id="dubai" class="section section-dubai">
-        <div class="section-heading">
+        <!-- <div class="section-heading">
           <p class="eyebrow">Dubai Property Gallery</p>
           <h2>Global investment opportunities, explained clearly from Jhansi.</h2>
           <p>
@@ -88,7 +151,7 @@
             Dubai’s fastest-growing communities.
           </p>
           <a class="button button-dark" href="dubai-gallery.html">Open Full Dubai Gallery</a>
-        </div>
+        </div> -->
 
         <div class="gallery-split" id="gallery">
           <div class="gallery-group">
@@ -98,13 +161,13 @@
                 <h3>Dubai homes and investment apartments</h3>
                 <p>Emaar Properties first, followed by Danube Properties for furnished, payment-plan-friendly investments.</p>
               </div>
-              <a class="button button-dark" href="dubai-gallery.html#property-gallery">Many More</a>
+              <a class="button button-dark hide-mobile" href="dubai-gallery.html#property-gallery">Many More</a>
             </div>
 
             <div class="property-grid">
           <article class="property-card feature creek">
             <div class="property-art">
-              <span>Creek Bay</span>
+              <!-- <span>Creek Bay</span> -->
             </div>
             <div class="property-body">
               <p class="tag">Emaar Properties</p>
@@ -120,7 +183,7 @@
           </article>
 
           <article class="property-card fashionz">
-            <div class="property-art"><span>Fashionz</span></div>
+            <div class="property-art"></div>
             <div class="property-body">
               <p class="tag">Danube Properties</p>
               <h3>Fashionz by Danube</h3>
@@ -134,7 +197,9 @@
           </article>
 
           <article class="property-card breez">
-            <div class="property-art"><span>Breez</span></div>
+            <div class="property-art">
+              <!-- <span>Breez</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Danube Properties</p>
               <h3>Breez by Danube</h3>
@@ -148,7 +213,9 @@
           </article>
 
           <article class="property-card serenz">
-            <div class="property-art"><span>Serenz</span></div>
+            <div class="property-art">
+              <!-- <span>Serenz</span> -->
+              </div>
             <div class="property-body">
               <p class="tag">Danube Properties</p>
               <h3>Serenz by Danube</h3>
@@ -170,13 +237,15 @@
                 <h3>Premium brands, branded residences and upcoming inventory</h3>
                 <p>BNW x Taj Hotels, Binghatti Developers and upcoming inventory grouped for bigger business conversations.</p>
               </div>
-              <a class="button button-dark" href="business-gallery.html">Many More</a>
+              <a class="button button-dark hide-mobile" href="business-gallery.html">Many More</a>
             </div>
 
             <div class="property-grid">
 
           <article class="property-card taj">
-            <div class="property-art"><span>Taj Wellington Mews</span></div>
+            <div class="property-art">
+              <!-- <span>Taj Wellington Mews</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">BNW x Taj Hotels</p>
               <h3>Taj Wellington Mews Residences</h3>
@@ -190,7 +259,9 @@
           </article>
 
           <article class="property-card sky">
-            <div class="property-art"><span>Skyterraces</span></div>
+            <div class="property-art">
+              <!-- <span>Skyterraces</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Binghatti Developers</p>
               <h3>Binghatti Skyterraces</h3>
@@ -204,7 +275,9 @@
           </article>
 
           <article class="property-card titania">
-            <div class="property-art"><span>Titania</span></div>
+            <div class="property-art">
+              <!-- <span>Titania</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Binghatti Developers</p>
               <h3>Binghatti Titania</h3>
@@ -218,7 +291,9 @@
           </article>
 
           <article class="property-card marina">
-            <div class="property-art"><span>Marina Heights</span></div>
+            <div class="property-art">
+              <!-- <span>Marina Heights</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Upcoming Inventory</p>
               <h3>Marina Waterfront Residences</h3>
@@ -232,7 +307,9 @@
           </article>
 
           <article class="property-card downtown">
-            <div class="property-art"><span>Downtown Luxe</span></div>
+            <div class="property-art">
+              <!-- <span>Downtown Luxe</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Upcoming Inventory</p>
               <h3>Downtown Investment Suites</h3>
@@ -246,7 +323,9 @@
           </article>
 
           <article class="property-card palm">
-            <div class="property-art"><span>Palm Vista</span></div>
+            <div class="property-art">
+              <!-- <span>Palm Vista</span> -->
+            </div>
             <div class="property-body">
               <p class="tag">Upcoming Inventory</p>
               <h3>Palm View Branded Homes</h3>
