@@ -719,7 +719,7 @@ h1 {
   position: absolute;
   inset: 0;
   background:
-    url("assets/Fashionz.jpeg")center 30%/cover no-repeat;
+    url("assets/fashionz.jpeg")center 30%/cover no-repeat;
 }
 
 .taj .property-art::before {
@@ -728,7 +728,7 @@ h1 {
   inset: 0;
   /* background: linear-gradient(145deg, #57452d 0%, #c9b883 58%, #1f1f1d 100%); */
   background:
-    url("assets/Taj.jpeg") center 30%/cover no-repeat;
+    url("assets/taj.jpeg") center 30%/cover no-repeat;
 }
 
 .sky .property-art::before {
@@ -737,7 +737,7 @@ h1 {
   position: absolute;
   inset: 0;
   background:
-    url("assets/Sky.jpeg") center 30%/cover no-repeat;
+    url("assets/sky.jpeg") center 30%/cover no-repeat;
 }
 
 .breez .property-art::before {
@@ -746,7 +746,7 @@ h1 {
   position: absolute;
   inset: 0;
   background:
-    url("assets/Breez.jpeg") center 30%/cover no-repeat;
+    url("assets/breez.jpeg") center 30%/cover no-repeat;
 }
 
 .serenz .property-art::before {
@@ -755,7 +755,7 @@ h1 {
   position: absolute;
   inset: 0;
   background:
-    url("assets/Serenz.jpeg") center 30%/cover no-repeat;
+    url("assets/serenz.jpeg") center 30%/cover no-repeat;
 
 }
 
